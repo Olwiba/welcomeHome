@@ -1,0 +1,34 @@
+{
+  "name": "welcome_home",
+  "version": "1.0.0",
+  "description": "Designed as a place for me to show my work and learnings",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "tape test/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olwiba/welcomeHome.git"
+  },
+  "keywords": [
+    "mySite",
+    "Personal",
+    "Project"
+  ],
+  "author": "Ollie Bannister",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olwiba/welcomeHome/issues"
+  },
+  "homepage": "https://github.com/Olwiba/welcomeHome#readme",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "hbs": "^4.0.0",
+    "nodemon": "^1.9.2"
+  }
+}
