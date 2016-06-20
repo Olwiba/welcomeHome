@@ -1,0 +1,40 @@
+header {
+	background-color: blue;
+}
+
+html {		
+	background: #011f4b;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background: transparent;
+}
+
+.vertical-center {
+}
+
+.float-center {
+    margin: 0 auto;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.right-border {
+	border-right: 1px solid black;
+}
+
+.left-border {
+	border-left: 1px solid black;
+}

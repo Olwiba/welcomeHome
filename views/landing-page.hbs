@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Welcome, come on in..">
+    <meta name="author" content="Ollie Bannister">
+
+    <title> \ Welcome \</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/landing-page.css">
+
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<div class='loader'>
+  <div class='loader-container'>
+    <h3><b>Please wait a moment while we are preparing the content !</b></h3>
+    <div class='progress progress-striped active'>
+      <div class='progress-bar progress-bar-color' id='bar' role='progressbar' style='width: 0%;'></div>
+    </div>
+  </div>
+</div>
+
+    <div id="top" class="content">
+    	<div class="text-vertical-center" id="askName" >
+        	<h1>I'm Sorry,</h1>
+        	<h3>I Didn't catch your name..</h3>
+			<form role="form" action="/tour" accept-charset="UTF-8" method="GET">
+        		<input type="text" name="name">
+				<button type="submit" class="btn btn-dark btn-s"m>Submit</button>
+        	</form>
+        </div>
+        <div class="text-vertical-center" id="main">
+            <h1>Welcome!</h1>
+            <h3>Would you like to take the tour?</h3>
+            <br>
+            <a href="/home" class="btn btn-dark btn-lg">Home</a>
+            <a href="#" class="btn btn-dark btn-lg" id="takeTour">Take tour..</a>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>   
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/js/welcome.js"></script>
+</body>
+
+</html>
